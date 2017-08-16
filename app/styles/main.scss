@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 a:active { outline: none; }
 
 /* Vars */
-$blueNavigation: #2ab4dc;
+$blueNavigation: #26704c;
 $blueButton: #29b3db;
 $grayButton: #A9A9A9;
 
@@ -850,7 +850,7 @@ input.knob:after { content: "%" !important; }
             font-size: 16px;
 
             &:hover, &:focus {
-                border-color: #2ab4dc;
+                border-color: #26704c;
                 box-shadow: none; }
 
             &.has-error {
@@ -946,7 +946,7 @@ input.knob:after { content: "%" !important; }
             font-size: 16px;
 
             &:hover, &:focus {
-                border-color: #2ab4dc;
+                border-color: #26704c;
                 box-shadow: none; }
 
             &.has-error {
@@ -1035,7 +1035,7 @@ input.knob:after { content: "%" !important; }
             font-size: 16px;
 
             &:hover, &:focus {
-                border-color: #2ab4dc;
+                border-color: #26704c;
                 box-shadow: none; }
 
             &.has-error {
@@ -1275,7 +1275,7 @@ input.knob:after { content: "%" !important; }
             resize: none;
 
             &:hover, &:focus {
-                border-color: #2ab4dc;
+                border-color: #26704c;
                 box-shadow: none; }
         }
 
@@ -1800,7 +1800,7 @@ input.knob:after { content: "%" !important; }
 
 .search_map:focus {
     outline: none;
-    border: 2px solid #2ab4dc;
+    border: 2px solid #26704c;
     -webkit-transition: all 0.15s ease;
     -moz-transition:    all 0.15s ease;
     -ms-transition:     all 0.15s ease;
@@ -2266,7 +2266,7 @@ input.knob:after { content: "%" !important; }
           font-size: 16px;
 
           &:hover, &:focus {
-              border-color: #2ab4dc;
+              border-color: #26704c;
               box-shadow: none; }
 
           &.has-error {
