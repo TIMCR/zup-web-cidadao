@@ -318,8 +318,10 @@ angular.module('zupWebAngularApp', [
               $rootScope.newReport();
             }
             if (forceReload === true) {
-              // $route.reload();
-              location.reload();
+              $route.reload();
+              if(!$rootScope.enabledReports){
+                  location.reload();
+              }
             }
           }, function(response) {
             if (response.status === 400 || response.status === 401)
