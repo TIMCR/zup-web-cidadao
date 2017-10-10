@@ -312,9 +312,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'images/{,*/}*.{webp}',
             'images/loading.gif',
-            'fonts/*.*',
-            'app/scripts/constants.*.js',
-            'app/scripts/constants.js.php',
+            'fonts/*.*'
           ]
         }, {
           expand: true,
