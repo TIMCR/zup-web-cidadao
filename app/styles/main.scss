@@ -341,13 +341,14 @@ header {
     padding-right: 0;
     padding-left: 0;
     width: 300px;
-    background-color: #333333;
+    //background-color: #333333;
+    background-color: #26704c;
     box-shadow: 5px 5px 20px rgba(0,0,0,.2);
     text-align: center;
 
     h6 {
         margin: 0;
-        color: #999;
+        color: #fff;
         text-transform: uppercase;
         font-weight: 700; }
 
@@ -505,14 +506,15 @@ header {
     padding-bottom: 17px;
     border: 0;
     border-top: none;
-    border-bottom: 1px solid #404040 !important;
+    border-bottom: 1px solid #0e5331 !important;
     border-radius: 0;
-    background-color: #333333;
+    //background-color: #333333;
+    background-color: #0e5331;
     color: #fff;
     font-size: 14px;
 
     &:hover, &:focus {
-        background-color: #262626;
+        background-color: #022011;
         color: #fff; }
 
     &.selected { background-color: $blueNavigation; }
