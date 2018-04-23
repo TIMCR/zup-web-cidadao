@@ -35,7 +35,7 @@
 
     <div ng-show="confirmedCategory">
         <h3 ng-hide="categoryData.inventory_categories.length == 0">2. Clique no ponto exato que deseja fazer a solicitação.</h3>
-        <h3 ng-show="categoryData.inventory_categories.length == 0">2. Digite o endereço ou arraste o marcador até a posição exata.</h3>
+        <h3 ng-show="categoryData.inventory_categories.length == 0">2. Digite o endereço do problema ou arraste o marcador até a posição exata.</h3>
 
         <div class="report_map">
           <div id="map-canvas" report-map></div>
@@ -80,7 +80,7 @@
 
             </div>
 
-            <textarea class="form-control" rows="4" ng-model="inputs.description" placeholder="Se desejar, detalhe a situação"></textarea>
+            <textarea class="form-control" rows="4" ng-model="inputs.description" placeholder="Se desejar, detalhe a situação (ponto de referência, descrição do problema relatado e etc)"></textarea>
 
             <div class="clearfix"></div>
 
