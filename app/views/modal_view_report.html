@@ -24,11 +24,13 @@
 
     <div class="report-comments" ng-show="comments">
       <div class="comment" ng-repeat="comment in comments">
-        <p>{{ comment.message }}</p>
+        <div ng-if="comment.visibility == 1">
+          <p>{{ comment.message }}</p>
 
-        <span>Resposta da prefeitura enviada: {{ comment.created_at | date: 'dd/MM/yy HH:mm'}}</span>
+          <span>Resposta da prefeitura enviada: {{ comment.created_at | date: 'dd/MM/yy HH:mm'}}</span>
 
-        <hr />
+          <hr />
+        </div>
       </div>
     </div>
 </div>

@@ -588,7 +588,7 @@ angular.module('zupWebAngularApp', [
         {
           $scope.loadingComments = true;
 
-          Reports.getItems({ id: report.id, return_fields: 'comments.id,comments.message,comments.created_at' }, function(data) {
+          Reports.getItems({ id: report.id, return_fields: 'comments.id,comments.message,comments.created_at,comments.visibility' }, function(data) {
             $scope.loadingComments = false;
 
             $scope.comments = data.report.comments;

@@ -9,7 +9,7 @@ angular.module('zupWebAngularApp')
     var loadComments = function(reportId) {
       $scope.loadingComments = true;
 
-      Reports.getItems({ id: reportId, return_fields: 'comments.id,comments.message,comments.created_at' }, function(data) {
+      Reports.getItems({ id: reportId, return_fields: 'comments.id,comments.message,comments.created_at,comments.visibility' }, function(data) {
         $scope.loadingComments = false;
 
         $scope.comments = data.report.comments;
