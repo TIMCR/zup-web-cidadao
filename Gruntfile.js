@@ -8,7 +8,8 @@
 // 'test/spec/**/*.js'
 
 require('dotenv').load();
-
+var os = require('os');
+os.tmpDir = os.tmpdir;
 module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-text-replace');
 
@@ -31,7 +32,7 @@ module.exports = function (grunt) {
     yeoman: {
       // configurable paths
       app: require('./bower.json').appPath || 'app',
-      dist: '../web/'
+      dist: './dist/'
     },
 
     // Watches files for changes and runs tasks based on the changed files
